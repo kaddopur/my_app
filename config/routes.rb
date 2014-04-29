@@ -1,4 +1,6 @@
 MyApp::Application.routes.draw do
+  resources :comments
+
   resources :tasks
 
   # The priority is based upon order of creation: first created -> highest priority.
